@@ -1,0 +1,24 @@
+
+INSTRUCTIONS TO CREATE EXE FILE FROM PYTHON SCRIPT (DLL_MusicPlayer.py)
+
+
+1. REQUIREMENTS:
+
+ Python installed (3.8+ recommended)
+ pip packages: pyinstaller, pygame
+
+Install via:
+    pip install pyinstaller pygame
+
+2. CONVERT TO EXE:
+
+Open CMD or PowerShell in the script directory and run:
+
+    pyinstaller --onefile --windowed --icon=music.ico DLL_MusicPlayer.py
+
+3. FIND YOUR EXE:
+
+Check the 'dist' folder inside your directory.
+
+Your file: DLL_MusicPlayer.exe
+
