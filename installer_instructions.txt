@@ -14,7 +14,9 @@ Install via:
 
 Open CMD or PowerShell in the script directory and run:
 
-    pyinstaller --onefile --windowed --icon=music.ico DLL_MusicPlayer.py
+    & "C:\Users\amant\AppData\Roaming\Python\Python313\Scripts\pyinstaller.exe"
+--onefile --windowed --icon=Music.ico DLL_MusicPlayer.py
+
 
 3. FIND YOUR EXE:
 
